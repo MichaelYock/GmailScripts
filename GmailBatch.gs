@@ -16,10 +16,8 @@ function releaseBatch(labelName) {
   }
   
   var threads = label.getThreads();
-  for (var i = 0; i < threads.length; i++)
-  {
+  for (var i = 0; i < threads.length; i++) {
     var thread = threads[i];
     thread.removeLabel(label);
-   
   }
 }
