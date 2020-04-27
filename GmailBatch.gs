@@ -20,6 +20,6 @@ function releaseBatch(labelName) {
   {
     var thread = threads[i];
     thread.removeLabel(label);
-    thread.moveToInbox();
+   
   }
 }
